@@ -1,0 +1,55 @@
+# Ignorar diretórios binários gerados pelo compilador .NET
+**/bin/
+**/obj/
+
+# Ignorar arquivos de configuração do Visual Studio
+.vscode/
+.vs/
+_resharper/
+
+# Ignorar arquivos de configuração do Visual Studio Code
+.vscode/settings.json
+
+# Ignorar arquivos de cache do Visual Studio Code
+.vscode/cache
+.vscode/cachedData
+
+# Ignorar arquivos de log e crash reports do Visual Studio
+*.log
+*.vsix
+*.nupkg
+*.pfx
+*.snk
+
+# Ignorar arquivos de build
+[Bb]in/
+[Ii]nt/
+
+# Ignorar diretórios de pacotes de gerenciamento de pacotes
+packages/
+node_modules/
+
+# Ignorar arquivos de saída de teste
+[Tt]est[Rr]esult*/
+*.xml
+*.swp
+
+# Ignorar arquivos de saída de cobertura de código
+*.opencover.xml
+*.coverage
+
+# Ignorar arquivos de log e erros do NCrunch
+_NCrunch_*
+*.ncrunch*
+.*crunch*.local.xml
+
+# Configurações de exclusão específicas para o projeto POC_RabbitMQ.Core
+POC_RabbitMQ.Core/bin/
+POC_RabbitMQ.Core/obj/
+POC_RabbitMQ.Core/packages/
+
+# Configurações de exclusão específicas para o projeto POC_RabbitMQ.Worker
+POC_RabbitMQ.Worker/bin/
+POC_RabbitMQ.Worker/obj/
+POC_RabbitMQ.Worker/packages/
+POC_RabbitMQ.Worker/.vs

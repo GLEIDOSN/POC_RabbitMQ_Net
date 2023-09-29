@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "POC_RabbitMQ.Worker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
